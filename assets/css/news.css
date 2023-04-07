@@ -1,0 +1,229 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* common */
+#main{
+
+}
+
+.text-white{
+    color: #fff !important;
+}
+
+.clear{
+    clear: both;
+}
+.row-clear::after{
+    display: block;
+    content: "";
+    clear: both;
+}
+
+/* main */
+
+/* Header */
+#header{
+    height: 46.5px;
+    background-color: #000;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+}
+
+#nav{
+    display: inline-block;
+}
+
+#nav li{
+    display: inline-block;
+    position: relative;
+    
+}
+#nav> li> a{
+    color: #fff;
+    text-transform: uppercase;
+}
+
+#nav li a{
+    
+    text-decoration: none;
+    line-height: 46.5px;
+    padding: 0 24px;
+    display: inline-block;
+}
+#nav li:hover .subnav{
+    display: block;
+}
+
+#nav >li:hover >a{
+    color: #000;
+    background-color: #ccc;
+}
+#nav .subnav{
+    display: none;
+    min-width: 160px;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+#nav .subnav a{
+    color: #000;
+    padding: 0 16px;
+    line-height: 38.5px;
+}
+#nav .subnav li{
+    width: 100%;
+}
+#nav .subnav li:hover{
+    color: #000;
+    background-color: #ccc;
+    
+}
+#nav .nav-arrow-down{
+    font-size: 14px;
+}
+
+#header .search-button{
+    float: right;
+    padding: 0 21px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+#header .search-button:hover{
+    background-color: #f44336;
+    cursor: pointer;
+}
+#header .search-icon{
+    color: #fff;
+    font-size: 20px;
+    line-height: 46.5px;
+}
+
+/* news */
+.content-section{
+    width: 900px;
+    max-width: 100%;
+    margin: 0 auto;
+    padding-top: 46.5px;
+}
+.news-list{
+    padding: 64px 0;
+    margin: 0 8px;
+    
+    
+}
+.news-list .section-heading{
+    text-align: center;
+}
+.news-item{
+    float: left;
+    width: calc(100%/3);
+    padding: 0 8px;
+    margin-top: 30px;
+    line-height: 1.6;
+    
+}
+.news-item img{
+    width: 100%;
+}
+.news-body{
+    padding: 0 16px;
+}
+.news-body .news-heading{
+    margin-top: 10px;
+    font-size: 17px;
+}
+.news-body .news-heading:hover{
+    color: #334862;
+    cursor: pointer;
+}
+.news-body .news-descrition{
+    margin-top: 15px;
+    font-size: 14px;
+}
+
+/* Footer */
+#footer{
+    background: url('/WEB106/ASM/assets/img/footer/bg-footer.jpg') center / cover no-repeat;
+    margin-top: 64px;
+}
+.footer-list{
+    width: 1100px;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 64px 0;
+    
+}
+.footer-item{
+    float: left;
+    width: calc(100%/4);
+    padding: 0 8px;
+    color: #a5a5a5;
+    
+}
+.footer-item .footer-logo img{
+    width: 180px;
+}
+.footer-heading{
+    font-size: 18px;
+    
+}
+.footer-contact{
+    font-size: 15px;
+    margin-top: 30px;
+    line-height: 1.6;
+}
+.footer-contact .social-list a{
+    color: #a5a5a5;
+}
+.footer-contact .social-list a:hover{
+    color: rgba(0, 0, 0, 0.4) ;
+}
+.footer-contact i[class*="fa-"]{
+    width: 20px;
+    display: inline-block;
+}
+.footer-news{
+    font-size: 15px;
+    margin-top: 30px;
+    line-height: 2;
+}
+.footer-news li{
+    list-style: inside;
+}
+.footer-news a{
+    color: #a5a5a5;
+    text-decoration: none;
+}
+.footer-news a:hover{
+    opacity: 0.8;
+}
+.footer-intro{
+    margin-top: 30px;
+}
+.footer-intro img{
+    width: 80px;
+    height: 70px;
+}
+.footer-intro img:hover{
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+@media (max-width:740px){
+    
+}
