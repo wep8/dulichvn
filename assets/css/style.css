@@ -244,7 +244,7 @@ html{
 
 /* Tour */
 #content .tour-section{
-     background: linear-gradient(0, rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('/WEB106/ASM/assets/img/Tour/background.jpg') center / cover no-repeat ;
+     background: linear-gradient(0, rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('../img/Tour/background.jpg') center / cover no-repeat ;
     
     }
 #content .tick-month{
@@ -371,7 +371,7 @@ html{
 
 /* Footer */
 #footer{
-    background: url('/WEB106/ASM/assets/img/footer/bg-footer.jpg') center / cover no-repeat;
+    background: url(../img/footer/bg-footer.jpg') center / cover no-repeat;
     margin-top: 64px;
 }
 .footer-list{
